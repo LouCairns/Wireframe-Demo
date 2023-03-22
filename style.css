@@ -5,3 +5,109 @@ body {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #93B5C6;
+    text-shadow: 5px 5px white;
+}
+
+div.diydorislogo img {
+    border-radius: 20%;
+    border: 20px solid #93B5C6;
+    float: left;
+    margin-left: 50px;
+    width: 200px
+  }
+
+P {font-size: 20px;
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #93B5C6;
+    color: white;
+  }
+
+
+/*THIS WHOLE SECTION IS A BLOODY NIGHTMARE AND POSSIBLY POSSESSED*/
+
+div.row {
+    display: inline-block
+} 
+
+div.drawers-square img {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  flex: 20%;
+  width: 20%
+}
+
+div.exposedpipes img {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  flex: 20%;
+  width: 20%
+}
+
+div.mushroomposters-square img {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  flex: 20%;
+  width: 20%
+}
+
+div.dustyhall img {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  flex: 20%;
+  width: 20%
+}
+
+div.spareroom img {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  flex: 20%;
+  width: 20%
+}
+
+.row {
+    display: flex;
+  }
+
+
+
+  
+  /* Thick purple border */
+  hr.new4 {
+    border: 15px solid #93B5C6;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  }
+
+
+}
+  
