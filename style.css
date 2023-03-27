@@ -53,25 +53,25 @@ ul {
     flex-direction: column;
   }
 
-  .image-gallery {
+  .img-gallery {
     display: flex;
-    flex-direction: column;
+    float: left;
+    object-fit: cover;
+    
   }
   
   .img-container {
-    margin-bottom: 1rem;
+    float: left;
   }
   
   .gallery-img {
     max-height: 200px;
     object-fit: cover;
-    object-position: bottom center;
-    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 5rem;
   }
   
-  .img-text {
-    text-align: center;
-  }
+ 
 
 
 
@@ -79,7 +79,9 @@ ul {
 
 
   table, th, td {
-    border: 1px solid;
+    border: 1px solid white;
+    color: white;
+    margin-top: 50px;
   }
 
   table {
@@ -89,6 +91,7 @@ ul {
   th, td {
     padding: 15px;
     text-align: left;
+    color: white;
   }
 
   
