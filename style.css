@@ -96,7 +96,18 @@ div.spareroom img {
     display: flex;
   }
 
+  table, th, td {
+    border: 1px solid;
+  }
 
+  table {
+    width: 100%;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
 
   
   /* Thick purple border */
