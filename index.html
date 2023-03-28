@@ -15,12 +15,13 @@
         <h1>DIY Doris</h1>
 
 
-        <h4> Click Doris to change image</h4>
-
-
         <div class="diydorislogo">
-             <img src="Images/DIY-Doris-Logo.jpg" alt="DIY DORIS LOGO" id="diydorislogo" onclick="changeImage()" src="Images/drawers-square.jpg">
+             <img src="Images/DIY-Doris-Logo.jpg" alt="DIY DORIS LOGO">
         </div>
+
+        
+        
+
 
         
         <nav>
@@ -211,7 +212,20 @@
     </tr>
 </table>
 
+<img id="myImage" onclick="changeImage()" src="Images/bulboff.png" width="100" height="180">
 
+<p>Click the light bulb to turn on/off the light.</p>
+
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("bulbon")) {
+    image.src = "Images/bulboff.png";
+  } else {
+    image.src = "Images/bulbon.png";
+  }
+}
+</script>
 
 </main>
 

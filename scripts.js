@@ -41,3 +41,4 @@ console.log(user); return user;
   }
 
   displayRating()
+
