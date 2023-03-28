@@ -28,4 +28,16 @@ alert("Welcome " + user );
 console.log(user); return user;
 }
 
-      
+  yourName()    
+
+
+  function displayRating() {
+    let output = "";
+    let rating = prompt("Rate Doris' work on a scale of 1 to 5");
+    for (let i = 0; i < rating; i++) {
+      output += "<img class='star' src='Images/smallstar.jpg' alt='rating star'>";
+    }
+    return document.write(output);
+  }
+
+  displayRating()

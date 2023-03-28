@@ -95,6 +95,10 @@ ul {
   }
 
   
+.star {
+  width: 150px;
+}
+
   /* Thick purple border */
   hr.new4 {
     border: 15px solid #93B5C6;
@@ -102,8 +106,5 @@ ul {
     margin-top: 50px;
   }
   
-  }
-
-
-}
+  
   
